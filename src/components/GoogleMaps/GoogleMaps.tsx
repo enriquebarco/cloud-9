@@ -7,6 +7,7 @@ import { mapStyle } from '../../assets/styles/MapStyle';
 import "./GoogleMaps.scss";
 
 
+
 const api_key = process.env.REACT_APP_GOOGLE_API;
 
 interface MapInterface {
