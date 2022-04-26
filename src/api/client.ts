@@ -34,7 +34,7 @@ const key = process.env.REACT_APP_WEATHER_API;
 class Client {
   async getWeatherByZipCode(zipCode: string) {
     const res = await axios.get(
-      `http://api.openweathermap.org/data/2.5/weather?zip=${zipCode}&units=imperial&appid=${key}`
+      `https://api.openweathermap.org/data/2.5/weather?zip=${zipCode}&units=imperial&appid=${key}`
     );
     return res.data as WeatherEntry;
   }
