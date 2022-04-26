@@ -1,0 +1,98 @@
+.weather {
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+        color: #609ab1;
+        font-weight: 800;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    &__time-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1rem 0;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.493);
+        border-top: 1px solid rgba(128, 128, 128, 0.493);
+    }
+
+    &__text-title {
+        text-transform: uppercase;
+        color: gray;
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+
+    &__text {
+        font-size: 1.15rem;
+        font-variation-settings: "wght" 600;
+        color: orange;
+        margin: 0;
+    }
+
+    &__icon {
+        width: 4rem;
+        height: 4rem;
+        margin: 0 1.5rem;
+
+        &--secondary {
+            margin: 0;
+        }
+
+        &--third {
+            margin: 1rem auto;
+        }
+    }
+
+    &__temp-container {
+        padding: 1rem 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.493);
+    }
+
+    &__text-temp {
+        margin: 0;
+        padding: 2.5rem 1.5rem;
+        border: 1px solid #609ab1;
+        border-radius: 50%;
+        background-color: #41788d;
+        color: white;
+        font-variation-settings: "wght" 800;
+        text-align: center;
+    }
+
+    &__wind-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    &__wind-speed-container {
+        display: flex;
+        align-items: center;
+    }
+
+    &__wind-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 .5rem;
+    }
+
+    &__text-wind {
+        margin: 0;
+        padding: 2.5rem 1.5rem;
+        border-radius: 50%;
+        background-color: #68aeca;
+        color: white;
+        font-variation-settings: "wght" 800;
+        text-align: center;
+    }
+}

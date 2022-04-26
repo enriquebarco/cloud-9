@@ -1,0 +1,23 @@
+.countdown-timer {
+    background: url(../../assets/icons/cloud.png);
+    background-size: cover;
+    position: absolute;
+    top: 1rem;
+    right: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+
+    &__title {
+        margin-top: 3.5rem;
+        margin-bottom: 0;
+        color: white;
+    }
+
+    &__text {
+        color: white;
+    }
+}

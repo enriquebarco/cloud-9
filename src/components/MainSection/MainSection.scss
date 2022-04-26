@@ -1,0 +1,57 @@
+
+
+.main-section {
+    margin: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 0.5rem;
+    width: 60%;
+
+    &__clear {
+        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/images/sunny-wallpaper.jpg);
+        background-size: cover;
+        padding: 3rem;
+    }
+
+    &__clouds {
+        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/images/cloudy.jpg) ;
+        background-size: cover;
+        padding: 3rem;
+    }
+
+    &__mist {
+        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/images/mist.jpg);
+        background-size: cover;
+        padding: 3rem;
+    }
+
+    &__rain {
+        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/images/rainy.jpg);
+        background-size: cover;
+        padding: 3rem;
+    }
+
+    &__snow {
+        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/images/snowy.jpg);
+        background-size: cover;
+        padding: 3rem;
+    }
+
+    &__thunderstorm {
+        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/images/thunder.jpg);
+        background-size: cover;
+        padding: 3rem;
+    }
+}
+
+.gif {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}

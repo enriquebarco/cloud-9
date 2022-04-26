@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+
+    &__logo {
+        width: 7rem;
+    }
+    
+    &__title {
+        font-size: 2.5rem;
+        margin: 1rem;
+        margin-top: 0;
+        color: #609ab1;
+    }
+
+    &__text {
+        font-size: 1rem;
+        margin: 0;
+        margin-bottom: 1rem;
+        color: #2a5363;
+    }
+
+    &__input {
+        margin-bottom: 1rem;
+        border: .0625rem solid rgb(180, 180, 180);
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        font-size: inherit;
+
+        &:focus {
+            outline: none;
+            border-color: #9FDEF7;
+            box-shadow: 0 0 .125rem #9FDEF7;
+        }
+    }
+}
